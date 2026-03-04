@@ -1,0 +1,14 @@
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\bin\Debug\net8.0\APP.Repositories.deps.json
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\bin\Debug\net8.0\APP.Repositories.runtimeconfig.json
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\bin\Debug\net8.0\APP.Repositories.dll
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\bin\Debug\net8.0\APP.Repositories.pdb
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\APP.Repositories.csproj.AssemblyReference.cache
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\APP.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\APP.Repositories.AssemblyInfoInputs.cache
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\APP.Repositories.AssemblyInfo.cs
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\APP.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\APP.Repositories.dll
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\refint\APP.Repositories.dll
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\APP.Repositories.pdb
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\APP.Repositories.genruntimeconfig.cache
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\ref\APP.Repositories.dll
