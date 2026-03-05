@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using APP.Repositories.Products;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -17,6 +18,9 @@ namespace APP.Repositories.Extensions
 					sqlServerOptionsAction.MigrationsAssembly(typeof(RepositoryAssembly).Assembly.FullName);
 				});
 			});
+			services.AddScoped<IProductRepository, ProductRepository>();
+			services.AddScoped<IUnitofWork, UnitofWork>();
+			services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
 			return services;
 		}
 	}

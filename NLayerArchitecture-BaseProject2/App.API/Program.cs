@@ -1,3 +1,4 @@
+using App.Services.Extensions;
 using APP.Repositories;
 using APP.Repositories.Extensions;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +14,7 @@ builder.Services.AddSwaggerGen();
 
 
 //dbcontext eklendi repository extension ile
-builder.Services.AddRepositories(builder.Configuration);
+builder.Services.AddRepositories(builder.Configuration).AddServices(builder.Configuration);
 
 
 var app = builder.Build();

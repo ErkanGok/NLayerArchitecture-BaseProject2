@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using APP.Repositories.Products;
+using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 namespace APP.Repositories
