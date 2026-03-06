@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|solutionrelative:services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\services\\products\\createproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|solutionrelative:services\\products\\createproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\services\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|solutionrelative:services\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\services\\products\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|solutionrelative:services\\products\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\services\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|solutionrelative:services\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E0EB16F-42ED-40A2-9A43-01239437C061}|App.API\\App.API.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\app.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E0EB16F-42ED-40A2-9A43-01239437C061}|App.API\\App.API.csproj|solutionrelative:app.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\services\\fluentvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|solutionrelative:services\\fluentvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "Services\\Extensions\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "Services\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Products\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Services\\Products\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Products\\ProductDto.cs",
+              "RelativeToolTip": "Services\\Products\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T10:49:38.379Z",
+              "WhenOpened": "2026-03-06T11:55:03.662Z",
               "EditorCaption": ""
             },
             {
@@ -53,48 +49,35 @@
               "RelativeDocumentMoniker": "Services\\Products\\ProductService.cs",
               "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Products\\ProductService.cs",
               "RelativeToolTip": "Services\\Products\\ProductService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA5wEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wDYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T10:39:24.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateProductRequestValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Products\\CreateProductRequestValidator.cs",
-              "RelativeDocumentMoniker": "Services\\Products\\CreateProductRequestValidator.cs",
-              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Products\\CreateProductRequestValidator.cs",
-              "RelativeToolTip": "Services\\Products\\CreateProductRequestValidator.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAArwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T10:12:33.709Z",
+              "WhenOpened": "2026-03-06T11:55:04.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\App.API\\Program.cs",
-              "RelativeDocumentMoniker": "App.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\App.API\\Program.cs",
-              "RelativeToolTip": "App.API\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAACLAAAAAAAAAA==",
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Services\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "Services\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T10:03:00.769Z",
+              "WhenOpened": "2026-03-06T11:53:59.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FluentValidationFilter.cs",
-              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\FluentValidationFilter.cs",
-              "RelativeDocumentMoniker": "Services\\FluentValidationFilter.cs",
-              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\FluentValidationFilter.cs",
-              "RelativeToolTip": "Services\\FluentValidationFilter.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Services\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Services\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T09:54:56.224Z",
+              "WhenOpened": "2026-03-06T11:52:38.443Z",
               "EditorCaption": ""
             }
           ]

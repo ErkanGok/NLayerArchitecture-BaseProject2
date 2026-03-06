@@ -145,3 +145,4 @@ C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitectu
 C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\App.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\App.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\App.API\obj\Debug\net8.0\App.API.sourcelink.json
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\App.API\bin\Debug\net8.0\AutoMapper.dll

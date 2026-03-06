@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oVS/bi9vVxc=",
+  "dgSpecHash": "0Tshl99sr48=",
   "success": true,
   "projectFilePath": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\App.API\\App.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Erkan\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Erkan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Erkan\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Erkan\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",

@@ -12,3 +12,4 @@ C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitectu
 C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\APP.Repositories.pdb
 C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\APP.Repositories.genruntimeconfig.cache
 C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\ref\APP.Repositories.dll
+C:\Users\Erkan\Documents\GitHub\NLayerArchitecture-BaseProject2\NLayerArchitecture-BaseProject2\Repositories\obj\Debug\net8.0\APP.Repositories.sourcelink.json
