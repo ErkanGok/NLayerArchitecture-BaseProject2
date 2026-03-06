@@ -1,4 +1,5 @@
-﻿using App.Services.Products;
+﻿using App.Services.ExceptionHandlers;
+using App.Services.Products;
 using APP.Repositories;
 using APP.Repositories.Products;
 using FluentValidation;
@@ -25,6 +26,10 @@ namespace App.Services.Extensions
 			services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 
 			services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
+			//Exceptionhandlers eklediğimiz sıra önemli
+			services.AddExceptionHandler<CriticalExceptionHandler>();
+			services.AddExceptionHandler<GlobalExceptionHandler>();
 			
 			return services;
 		}

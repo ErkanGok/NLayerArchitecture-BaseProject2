@@ -29,6 +29,9 @@ builder.Services.AddRepositories(builder.Configuration).AddServices(builder.Conf
 
 var app = builder.Build();
 
+//exception handler eklendi.
+app.UseExceptionHandler(x => { });
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

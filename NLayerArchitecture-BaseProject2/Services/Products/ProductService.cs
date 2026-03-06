@@ -1,4 +1,5 @@
-﻿using App.Services.Products.Create;
+﻿using App.Services.ExceptionHandlers;
+using App.Services.Products.Create;
 using App.Services.Products.Update;
 using APP.Repositories;
 using APP.Repositories.Products;
@@ -65,6 +66,9 @@ namespace App.Services.Products
 
 		public async Task<ServiceResult<CreateProductResponse>> CreateAsync(CreateProductRequest request)
 		{
+			//throw new CriticalException("Kritik Seviyede Bir Hata Meydana Geldi.");
+			throw new Exception("db hatası");
+
 			// 2. way async manuel service business check
 			var anyProduct = await productRepository.Where(x => x.Name == request.Name).AnyAsync();
 
