@@ -27,22 +27,6 @@
   },
   {
     "ContainingType": "App.API.Controllers.ProductsController",
-    "Method": "UpdateStock",
-    "RelativePath": "api/Products",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "App.Services.Products.UpdateProductStockRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "App.API.Controllers.ProductsController",
     "Method": "GetById",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "GET",
@@ -110,6 +94,22 @@
       {
         "Name": "pageSize",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "App.API.Controllers.ProductsController",
+    "Method": "UpdateStock",
+    "RelativePath": "api/Products/stock",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "App.Services.Products.UpdateProductStockRequest",
         "IsRequired": true
       }
     ],
