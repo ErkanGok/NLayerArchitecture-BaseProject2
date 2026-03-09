@@ -1,4 +1,5 @@
-﻿using App.Services.ExceptionHandlers;
+﻿using App.Services.Categories;
+using App.Services.ExceptionHandlers;
 using App.Services.Products;
 using APP.Repositories;
 using APP.Repositories.Products;
@@ -21,6 +22,7 @@ namespace App.Services.Extensions
 		{
 			
 			services.AddScoped<IProductService, ProductService>();
+			services.AddScoped<ICategoryService, CategoryService>();
 
 			services.AddFluentValidationAutoValidation(); // burası açık olursa asenkron validation çalışmaz, Eğer bunu kaldırırsak Product service'e geçmemiz lazım (3. yol)
 			services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());

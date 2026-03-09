@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\Migrations\\20260309220921_add_audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Migrations\\20260309220921_add_audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BBB58ED-C5BA-40BA-AF3F-0092E33B9FFE}|Repositories\\APP.Repositories.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\repositories\\extensions\\repositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BBB58ED-C5BA-40BA-AF3F-0092E33B9FFE}|Repositories\\APP.Repositories.csproj|solutionrelative:repositories\\extensions\\repositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BBB58ED-C5BA-40BA-AF3F-0092E33B9FFE}|Repositories\\APP.Repositories.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\repositories\\interceptors\\auditdbcontextinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BBB58ED-C5BA-40BA-AF3F-0092E33B9FFE}|Repositories\\APP.Repositories.csproj|solutionrelative:repositories\\interceptors\\auditdbcontextinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BBB58ED-C5BA-40BA-AF3F-0092E33B9FFE}|Repositories\\APP.Repositories.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\repositories\\categories\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BBB58ED-C5BA-40BA-AF3F-0092E33B9FFE}|Repositories\\APP.Repositories.csproj|solutionrelative:repositories\\categories\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BBB58ED-C5BA-40BA-AF3F-0092E33B9FFE}|Repositories\\APP.Repositories.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\repositories\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BBB58ED-C5BA-40BA-AF3F-0092E33B9FFE}|Repositories\\APP.Repositories.csproj|solutionrelative:repositories\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BBB58ED-C5BA-40BA-AF3F-0092E33B9FFE}|Repositories\\APP.Repositories.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\repositories\\baseauditentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BBB58ED-C5BA-40BA-AF3F-0092E33B9FFE}|Repositories\\APP.Repositories.csproj|solutionrelative:repositories\\baseauditentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\services\\products\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|solutionrelative:services\\products\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|solutionrelative:services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\services\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|solutionrelative:services\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E0EB16F-42ED-40A2-9A43-01239437C061}|App.API\\App.API.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\app.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E0EB16F-42ED-40A2-9A43-01239437C061}|App.API\\App.API.csproj|solutionrelative:app.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\services\\exceptionhandlers\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|solutionrelative:services\\exceptionhandlers\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\services\\exceptionhandlers\\criticalexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|solutionrelative:services\\exceptionhandlers\\criticalexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|c:\\users\\erkan\\documents\\github\\nlayerarchitecture-baseproject2\\nlayerarchitecture-baseproject2\\services\\exceptionhandlers\\criticalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E33F6BA-24DC-4D98-B158-941C26818D5C}|Services\\App.Services.csproj|solutionrelative:services\\exceptionhandlers\\criticalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +47,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Products\\ProductService.cs",
-              "RelativeDocumentMoniker": "Services\\Products\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Products\\ProductService.cs",
-              "RelativeToolTip": "Services\\Products\\ProductService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA1wEUAAAAhAAAAAAAAAA==",
+              "Title": "20260309220921_add_audit.cs",
+              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\Migrations\\20260309220921_add_audit.cs",
+              "RelativeDocumentMoniker": "Repositories\\Migrations\\20260309220921_add_audit.cs",
+              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\Migrations\\20260309220921_add_audit.cs",
+              "RelativeToolTip": "Repositories\\Migrations\\20260309220921_add_audit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T14:06:57.731Z",
+              "WhenOpened": "2026-03-09T22:09:21.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "Services\\Extensions\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "Services\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB8AAAA6AAAAAAAAAA==",
+              "Title": "RepositoryExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\Extensions\\RepositoryExtensions.cs",
+              "RelativeDocumentMoniker": "Repositories\\Extensions\\RepositoryExtensions.cs",
+              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\Extensions\\RepositoryExtensions.cs",
+              "RelativeToolTip": "Repositories\\Extensions\\RepositoryExtensions.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T14:05:20.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\App.API\\Program.cs",
-              "RelativeDocumentMoniker": "App.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\App.API\\Program.cs",
-              "RelativeToolTip": "App.API\\Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAArwCAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T13:59:11.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CriticalException.cs",
-              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\ExceptionHandlers\\CriticalException.cs",
-              "RelativeDocumentMoniker": "Services\\ExceptionHandlers\\CriticalException.cs",
-              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\ExceptionHandlers\\CriticalException.cs",
-              "RelativeToolTip": "Services\\ExceptionHandlers\\CriticalException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T13:54:55.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GlobalExceptionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\ExceptionHandlers\\GlobalExceptionHandler.cs",
-              "RelativeDocumentMoniker": "Services\\ExceptionHandlers\\GlobalExceptionHandler.cs",
-              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\ExceptionHandlers\\GlobalExceptionHandler.cs",
-              "RelativeToolTip": "Services\\ExceptionHandlers\\GlobalExceptionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T13:52:14.163Z",
+              "WhenOpened": "2026-03-09T22:03:11.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CriticalExceptionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\ExceptionHandlers\\CriticalExceptionHandler.cs",
-              "RelativeDocumentMoniker": "Services\\ExceptionHandlers\\CriticalExceptionHandler.cs",
-              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\ExceptionHandlers\\CriticalExceptionHandler.cs",
-              "RelativeToolTip": "Services\\ExceptionHandlers\\CriticalExceptionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Title": "BaseAuditEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\BaseAuditEntity.cs",
+              "RelativeDocumentMoniker": "Repositories\\BaseAuditEntity.cs",
+              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\BaseAuditEntity.cs",
+              "RelativeToolTip": "Repositories\\BaseAuditEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T13:52:01.678Z",
+              "WhenOpened": "2026-03-09T21:36:56.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\Products\\Product.cs",
+              "RelativeDocumentMoniker": "Repositories\\Products\\Product.cs",
+              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\Products\\Product.cs",
+              "RelativeToolTip": "Repositories\\Products\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T21:35:07.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\Categories\\Category.cs",
+              "RelativeDocumentMoniker": "Repositories\\Categories\\Category.cs",
+              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\Categories\\Category.cs",
+              "RelativeToolTip": "Repositories\\Categories\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T21:34:55.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuditDbContextInterceptor.cs",
+              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\Interceptors\\AuditDbContextInterceptor.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interceptors\\AuditDbContextInterceptor.cs",
+              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Repositories\\Interceptors\\AuditDbContextInterceptor.cs",
+              "RelativeToolTip": "Repositories\\Interceptors\\AuditDbContextInterceptor.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T21:28:30.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Products\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Services\\Products\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Products\\ProductDto.cs",
+              "RelativeToolTip": "Services\\Products\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T21:02:33.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Products\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\Products\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Erkan\\Documents\\GitHub\\NLayerArchitecture-BaseProject2\\NLayerArchitecture-BaseProject2\\Services\\Products\\ProductService.cs",
+              "RelativeToolTip": "Services\\Products\\ProductService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAIwDUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T19:09:31.97Z",
               "EditorCaption": ""
             }
           ]

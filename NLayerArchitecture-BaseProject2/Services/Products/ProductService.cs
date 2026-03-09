@@ -16,7 +16,11 @@ namespace App.Services.Products
 		{
 			var products = await productRepository.GetTopPriceProductsAsync(count);
 
-			var ProductsAsDto = products.Select(p => new ProductDto(p.ID, p.Name, p.Price, p.Stock)).ToList();
+			#region Manuel Mapping
+			//var ProductsAsDto = products.Select(p => new ProductDto(p.ID, p.Name, p.Price, p.Stock)).ToList();
+			#endregion
+
+			var ProductsAsDto = mapper.Map<List<ProductDto>>(products);
 
 			return new ServiceResult<List<ProductDto>>()
 			{
@@ -67,12 +71,12 @@ namespace App.Services.Products
 		public async Task<ServiceResult<CreateProductResponse>> CreateAsync(CreateProductRequest request)
 		{
 			//throw new CriticalException("Kritik Seviyede Bir Hata Meydana Geldi.");
-			throw new Exception("db hatası");
+			//throw new Exception("db hatası");
 
 			// 2. way async manuel service business check
-			var anyProduct = await productRepository.Where(x => x.Name == request.Name).AnyAsync();
+			var isProductNameExist = await productRepository.Where(x => x.Name == request.Name).AnyAsync();
 
-			if (anyProduct)
+			if (isProductNameExist)
 			{
 				return ServiceResult<CreateProductResponse>.Fail("Ürün İsmi Veritabanında Bulunmaktadır.", HttpStatusCode.BadRequest);
 			}
@@ -86,12 +90,17 @@ namespace App.Services.Products
 			//}
 			#endregion
 
-			var product = new Product()
-			{
-				Name = request.Name,
-				Price = request.Price,
-				Stock = request.Stock,
-			};
+			#region ManuelMapping
+			//var product = new Product()
+			//{
+			//	Name = request.Name,
+			//	Price = request.Price,
+			//	Stock = request.Stock,
+			//};
+			#endregion
+
+			var product = mapper.Map<Product>(request);
+
 			await productRepository.AddAsync(product);
 			await unitofWork.SaveChangesAsync();
 			return ServiceResult<CreateProductResponse>.SuccessAsCreated(new CreateProductResponse(product.ID),$"api/products/{product.ID}");
@@ -106,9 +115,20 @@ namespace App.Services.Products
 				return ServiceResult.Fail("Product Not Found", HttpStatusCode.NotFound);
 			}
 
-			product.Name = request.Name;
-			product.Price = request.Price;
-			product.Stock = request.Stock;
+			var isProductNameExist = await productRepository.Where(x => x.Name == request.Name && x.ID != product.ID).AnyAsync();
+
+			if (isProductNameExist)
+			{
+				return ServiceResult.Fail("Ürün İsmi Veritabanında Bulunmaktadır.", HttpStatusCode.BadRequest);
+			}
+
+			#region Manuel Mapping
+			//product.Name = request.Name;
+			//product.Price = request.Price;
+			//product.Stock = request.Stock;
+			#endregion
+
+			product = mapper.Map(request,product);
 
 			productRepository.Update(product);
 			await unitofWork.SaveChangesAsync();

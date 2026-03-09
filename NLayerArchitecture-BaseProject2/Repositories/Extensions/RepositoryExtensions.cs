@@ -1,4 +1,6 @@
-﻿using APP.Repositories.Products;
+﻿using APP.Repositories.Categories;
+using APP.Repositories.Interceptors;
+using APP.Repositories.Products;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,8 +19,10 @@ namespace APP.Repositories.Extensions
 				{
 					sqlServerOptionsAction.MigrationsAssembly(typeof(RepositoryAssembly).Assembly.FullName);
 				});
+				options.AddInterceptors(new AuditDbContextInterceptor());
 			});
 			services.AddScoped<IProductRepository, ProductRepository>();
+			services.AddScoped<ICategoryRepository, CategoryRepository>();
 			services.AddScoped<IUnitofWork, UnitofWork>();
 			services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
 			return services;
