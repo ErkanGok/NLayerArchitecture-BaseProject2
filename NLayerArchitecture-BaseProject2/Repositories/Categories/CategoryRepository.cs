@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace APP.Repositories.Categories
 {
-	public class CategoryRepository(AppDbContext context) : GenericRepository<Category>(context), ICategoryRepository
+	public class CategoryRepository(AppDbContext context) : GenericRepository<Category,int>(context), ICategoryRepository
 	{
 		public IQueryable<Category?> GetCategoryWithProducts()
 		{
@@ -17,7 +17,7 @@ namespace APP.Repositories.Categories
 		public Task<Category?> GetCategoryWithProductsAsync(int id)
 		{
 			//eager loading
-			return context.Categories.Include(x => x.Products).FirstOrDefaultAsync(x => x.ID == id);
+			return context.Categories.Include(x => x.Products).FirstOrDefaultAsync(x => x.Id == id);
 			
 		}
 	}

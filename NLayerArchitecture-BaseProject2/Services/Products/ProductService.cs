@@ -103,19 +103,14 @@ namespace App.Services.Products
 
 			await productRepository.AddAsync(product);
 			await unitofWork.SaveChangesAsync();
-			return ServiceResult<CreateProductResponse>.SuccessAsCreated(new CreateProductResponse(product.ID),$"api/products/{product.ID}");
+			return ServiceResult<CreateProductResponse>.SuccessAsCreated(new CreateProductResponse(product.Id),$"api/products/{product.Id}");
 		}
 
 		public async Task<ServiceResult> UpdateAsync(int id, UpdateProductRequest request)
 		{
-			var product = await productRepository.GetByIdAsync(id);
+					
 
-			if (product is null)
-			{
-				return ServiceResult.Fail("Product Not Found", HttpStatusCode.NotFound);
-			}
-
-			var isProductNameExist = await productRepository.Where(x => x.Name == request.Name && x.ID != product.ID).AnyAsync();
+			var isProductNameExist = await productRepository.Where(x => x.Name == request.Name && x.Id != id).AnyAsync();
 
 			if (isProductNameExist)
 			{
@@ -128,7 +123,8 @@ namespace App.Services.Products
 			//product.Stock = request.Stock;
 			#endregion
 
-			product = mapper.Map(request,product);
+			var product = mapper.Map<Product>(request);
+			product.Id = id;
 
 			productRepository.Update(product);
 			await unitofWork.SaveChangesAsync();
@@ -155,14 +151,9 @@ namespace App.Services.Products
 
 		public async Task<ServiceResult> DeleteAsync(int id)
 		{
-			var product = await productRepository.GetByIdAsync(id);
+			var product = await productRepository.GetByIdAsync(id);		
 
-			if (product is null)
-			{
-				return ServiceResult.Fail("Product Not Found", HttpStatusCode.NotFound);
-			}
-
-			productRepository.Delete(product);
+			productRepository.Delete(product!);
 			await unitofWork.SaveChangesAsync();
 			return ServiceResult.Success(HttpStatusCode.NoContent);
 

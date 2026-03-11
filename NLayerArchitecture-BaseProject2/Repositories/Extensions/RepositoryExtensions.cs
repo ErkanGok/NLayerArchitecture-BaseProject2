@@ -24,7 +24,7 @@ namespace APP.Repositories.Extensions
 			services.AddScoped<IProductRepository, ProductRepository>();
 			services.AddScoped<ICategoryRepository, CategoryRepository>();
 			services.AddScoped<IUnitofWork, UnitofWork>();
-			services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
+			services.AddScoped(typeof(IGenericRepository<,>),typeof(GenericRepository<,>));
 			return services;
 		}
 	}
